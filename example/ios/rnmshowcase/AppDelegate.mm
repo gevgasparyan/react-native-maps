@@ -35,5 +35,19 @@
 #endif
 }
 
+- (BOOL)turboModuleEnabled {
+  return true;
+}
+
+
+- (BOOL)fabricEnabled{
+  return true;
+}
+
+- (BOOL)bridgelessEnabled
+{
+    return YES;
+}
+
 
 @end
